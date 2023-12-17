@@ -995,19 +995,6 @@ input {
     gap: 36px;
   }
 
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .section.hero-section {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero-tab@2x.jpg);
-    }
-  }
-
   .capabilities-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1095,6 +1082,19 @@ input {
   .checkbox-label {
     display: block;
   }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .section.hero-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-tab@2x.jpg);
+    }
+  }
 }
 /* MEDIA DESKTOP */
 @media screen and (min-width: 1158px) {
@@ -1138,19 +1138,6 @@ input {
 
   .container.hero-container {
     gap: 48px;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    .section.hero-section {
-      background-image: linear-gradient(
-          to bottom,
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero@2x.jpg);
-    }
   }
 
   .icon-capabilities {
@@ -1215,5 +1202,18 @@ input {
   }
   .media-container {
     margin-right: 96px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .section.hero-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero@2x.jpg);
+    }
   }
 }
